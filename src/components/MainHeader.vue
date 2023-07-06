@@ -79,7 +79,7 @@ const signOutUser = async () => {
 .header {
   z-index: 2;
   position: fixed;
-  background: #fafafa;
+  background: var(--q-bg);
 }
 
 .sub-header {
@@ -128,7 +128,8 @@ h6 {
 
   span {
     margin-left: 0.5rem;
-    font-family: "Pacifico", serif;
+    font-family: "Roboto", serif;
+    font-weight: 500;
     letter-spacing: 0.25rem;
   }
 }

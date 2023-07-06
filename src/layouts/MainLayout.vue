@@ -21,6 +21,7 @@ import MainHeader from "components/MainHeader.vue";
   padding-top: 8rem;
   scroll-snap-type: y mandatory;
   overflow: auto;
+  scroll-behavior: smooth;
 }
 .container::-webkit-scrollbar {
   width: 0;

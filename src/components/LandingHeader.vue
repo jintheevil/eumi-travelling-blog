@@ -51,7 +51,8 @@ const slides = [
   h1 {
     margin: 0;
     text-shadow: 0.3rem 0.4rem 0.2rem var(--q-primary);
-    font-family: "Pacifico", serif;
+    font-family: "Roboto", serif;
+    font-weight: 500;
   }
 
   h2 {
@@ -61,6 +62,6 @@ const slides = [
 }
 
 .carousel-slide {
-  background: #fafafa;
+  background: var(--q-bg);
 }
 </style>

@@ -57,7 +57,8 @@
 }
 
 h2 {
-  font-family: "Pacifico", serif;
+  font-family: "Roboto", serif;
+  font-weight: 400;
   text-shadow: 0.3rem 0.4rem 0.2rem var(--q-secondary);
   margin: 0;
 }
